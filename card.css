@@ -1,0 +1,62 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  #1b4b7b;
+    background-color: rgb(245, 245, 245);
+}
+.kaprilink{
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+}
+.kaprilink a{
+    text-decoration: none;
+    color:  #1b4b7b;
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.cardContainer{
+    display: flex;
+    padding: 10px 30px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    
+}
+img{
+    padding-right: 20px;
+    cursor: pointer;
+}
+.restart{
+    padding: 10px 5px;
+    height: 30px;
+    background-color: #1b4b7b;
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.backCard{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.cardContainer2{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+.undo{
+    margin-left: 5px;
+}
